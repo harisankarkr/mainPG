@@ -1,0 +1,83 @@
+
+.hh{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+    color: black;
+}
+
+.main-reg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+      backdrop-filter: blur(5px);
+}
+
+.sub-1{
+    width: 40%;
+    padding: 5rem;
+}
+
+.sub-2{
+    padding: 5rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-reg input[type=text]{
+    /* border: 0; */
+    border: 2px solid rgb(36, 35, 35);
+    width: 90%;
+    height: 2.5rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    border-radius: 8px;
+}
+
+
+.error-display{
+    font-size: small;
+    color: red;
+    padding-left: 1rem;
+}
+
+#sub {
+    border:0;
+    background-color: black;
+    color: white;
+    font-size: large;
+    width: 90%;
+    height: 2.5rem;
+    margin: .5rem;
+    padding-left: 1rem;
+}
+
+#re {
+    border: 2px solid black;
+    color: black;
+    background-color:  white;
+    font-size: large;
+    width: 90%;
+    height: 2.5rem;
+    margin: .5rem;
+    padding-left: 1rem;
+}
+
+#bio{
+    border: 2px solid rgb(36, 35, 35);
+    width: 90%;
+}
+
+/* file style */
+.main-reg input[type="file"] {
+ background-color: rgb(206, 197, 197);
+ color: black;
+ font-size: large;
+ border: 0;
+ width: 90%;
+}
